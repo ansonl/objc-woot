@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E3C5821DBAEDC6006400DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5811DBAEDC6006400DD /* main.m */; };
+		28E3C5851DBAEDC6006400DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5841DBAEDC6006400DD /* AppDelegate.m */; };
+		28E3C58B1DBAEDC6006400DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E3C5891DBAEDC6006400DD /* Main.storyboard */; };
+		28E3C58D1DBAEDC6006400DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28E3C58C1DBAEDC6006400DD /* Assets.xcassets */; };
+		28E3C5901DBAEDC6006400DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28E3C58E1DBAEDC6006400DD /* LaunchScreen.storyboard */; };
+		28E3C59B1DBAEDEA006400DD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5981DBAEDEA006400DD /* MainViewController.m */; };
+		28E3C59C1DBAEDEA006400DD /* WOOTTextViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C59A1DBAEDEA006400DD /* WOOTTextViewDelegate.m */; };
+		28E3C5C11DBAEF25006400DD /* WIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5B01DBAEF25006400DD /* WIdentifier.m */; };
+		28E3C5C21DBAEF25006400DD /* WCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5B21DBAEF25006400DD /* WCharacter.m */; };
+		28E3C5C31DBAEF25006400DD /* WCharacter+LocalPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5B41DBAEF25006400DD /* WCharacter+LocalPosition.m */; };
+		28E3C5C41DBAEF25006400DD /* WCharacter+Special.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5B61DBAEF25006400DD /* WCharacter+Special.m */; };
+		28E3C5C51DBAEF25006400DD /* WString.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5B81DBAEF25006400DD /* WString.m */; };
+		28E3C5C61DBAEF25006400DD /* WString+InsertNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5BA1DBAEF25006400DD /* WString+InsertNSString.m */; };
+		28E3C5C71DBAEF25006400DD /* GenericOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5BC1DBAEF25006400DD /* GenericOperation.m */; };
+		28E3C5C81DBAEF25006400DD /* InsertOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5BE1DBAEF25006400DD /* InsertOp.m */; };
+		28E3C5C91DBAEF25006400DD /* DelOp.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5C01DBAEF25006400DD /* DelOp.m */; };
+		28E3C5DA1DBAF122006400DD /* MeshNoteSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5D11DBAF122006400DD /* MeshNoteSession.m */; };
+		28E3C5DB1DBAF122006400DD /* MeshNoteOnlineInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5D31DBAF122006400DD /* MeshNoteOnlineInfo.m */; };
+		28E3C5DC1DBAF122006400DD /* ReadyToReceiveCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5D51DBAF122006400DD /* ReadyToReceiveCommand.m */; };
+		28E3C5DD1DBAF122006400DD /* NoteInfoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5D71DBAF122006400DD /* NoteInfoCommand.m */; };
+		28E3C5DE1DBAF122006400DD /* BatchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E3C5D91DBAF122006400DD /* BatchOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28E3C57D1DBAEDC6006400DD /* woot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E3C5811DBAEDC6006400DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E3C5831DBAEDC6006400DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28E3C5841DBAEDC6006400DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28E3C58A1DBAEDC6006400DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28E3C58C1DBAEDC6006400DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28E3C58F1DBAEDC6006400DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28E3C5911DBAEDC6006400DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E3C5971DBAEDEA006400DD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		28E3C5981DBAEDEA006400DD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		28E3C5991DBAEDEA006400DD /* WOOTTextViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOOTTextViewDelegate.h; sourceTree = "<group>"; };
+		28E3C59A1DBAEDEA006400DD /* WOOTTextViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOOTTextViewDelegate.m; sourceTree = "<group>"; };
+		28E3C5AF1DBAEF25006400DD /* WIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIdentifier.h; sourceTree = "<group>"; };
+		28E3C5B01DBAEF25006400DD /* WIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIdentifier.m; sourceTree = "<group>"; };
+		28E3C5B11DBAEF25006400DD /* WCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCharacter.h; sourceTree = "<group>"; };
+		28E3C5B21DBAEF25006400DD /* WCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCharacter.m; sourceTree = "<group>"; };
+		28E3C5B31DBAEF25006400DD /* WCharacter+LocalPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCharacter+LocalPosition.h"; sourceTree = "<group>"; };
+		28E3C5B41DBAEF25006400DD /* WCharacter+LocalPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WCharacter+LocalPosition.m"; sourceTree = "<group>"; };
+		28E3C5B51DBAEF25006400DD /* WCharacter+Special.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WCharacter+Special.h"; sourceTree = "<group>"; };
+		28E3C5B61DBAEF25006400DD /* WCharacter+Special.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WCharacter+Special.m"; sourceTree = "<group>"; };
+		28E3C5B71DBAEF25006400DD /* WString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WString.h; sourceTree = "<group>"; };
+		28E3C5B81DBAEF25006400DD /* WString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WString.m; sourceTree = "<group>"; };
+		28E3C5B91DBAEF25006400DD /* WString+InsertNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WString+InsertNSString.h"; sourceTree = "<group>"; };
+		28E3C5BA1DBAEF25006400DD /* WString+InsertNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WString+InsertNSString.m"; sourceTree = "<group>"; };
+		28E3C5BB1DBAEF25006400DD /* GenericOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericOperation.h; sourceTree = "<group>"; };
+		28E3C5BC1DBAEF25006400DD /* GenericOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericOperation.m; sourceTree = "<group>"; };
+		28E3C5BD1DBAEF25006400DD /* InsertOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertOp.h; sourceTree = "<group>"; };
+		28E3C5BE1DBAEF25006400DD /* InsertOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertOp.m; sourceTree = "<group>"; };
+		28E3C5BF1DBAEF25006400DD /* DelOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelOp.h; sourceTree = "<group>"; };
+		28E3C5C01DBAEF25006400DD /* DelOp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelOp.m; sourceTree = "<group>"; };
+		28E3C5CB1DBAF059006400DD /* WOOTOpBroadcastDelegateProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WOOTOpBroadcastDelegateProtocol.h; sourceTree = "<group>"; };
+		28E3C5D01DBAF122006400DD /* MeshNoteSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshNoteSession.h; sourceTree = "<group>"; };
+		28E3C5D11DBAF122006400DD /* MeshNoteSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshNoteSession.m; sourceTree = "<group>"; };
+		28E3C5D21DBAF122006400DD /* MeshNoteOnlineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshNoteOnlineInfo.h; sourceTree = "<group>"; };
+		28E3C5D31DBAF122006400DD /* MeshNoteOnlineInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshNoteOnlineInfo.m; sourceTree = "<group>"; };
+		28E3C5D41DBAF122006400DD /* ReadyToReceiveCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadyToReceiveCommand.h; sourceTree = "<group>"; };
+		28E3C5D51DBAF122006400DD /* ReadyToReceiveCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadyToReceiveCommand.m; sourceTree = "<group>"; };
+		28E3C5D61DBAF122006400DD /* NoteInfoCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteInfoCommand.h; sourceTree = "<group>"; };
+		28E3C5D71DBAF122006400DD /* NoteInfoCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteInfoCommand.m; sourceTree = "<group>"; };
+		28E3C5D81DBAF122006400DD /* BatchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchOperation.h; sourceTree = "<group>"; };
+		28E3C5D91DBAF122006400DD /* BatchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchOperation.m; sourceTree = "<group>"; };
+		28E3C5DF1DBAF135006400DD /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E3C57A1DBAEDC6006400DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E3C5741DBAEDC6006400DD = {
+			isa = PBXGroup;
+			children = (
+				28E3C57F1DBAEDC6006400DD /* woot */,
+				28E3C57E1DBAEDC6006400DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E3C57E1DBAEDC6006400DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E3C57D1DBAEDC6006400DD /* woot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E3C57F1DBAEDC6006400DD /* woot */ = {
+			isa = PBXGroup;
+			children = (
+				28E3C5831DBAEDC6006400DD /* AppDelegate.h */,
+				28E3C5841DBAEDC6006400DD /* AppDelegate.m */,
+				28E3C5971DBAEDEA006400DD /* MainViewController.h */,
+				28E3C5981DBAEDEA006400DD /* MainViewController.m */,
+				28E3C5991DBAEDEA006400DD /* WOOTTextViewDelegate.h */,
+				28E3C59A1DBAEDEA006400DD /* WOOTTextViewDelegate.m */,
+				28E3C5891DBAEDC6006400DD /* Main.storyboard */,
+				28E3C58C1DBAEDC6006400DD /* Assets.xcassets */,
+				28E3C58E1DBAEDC6006400DD /* LaunchScreen.storyboard */,
+				28E3C5911DBAEDC6006400DD /* Info.plist */,
+				28E3C5CC1DBAF05F006400DD /* Model */,
+				28E3C5CA1DBAEF2A006400DD /* WOOT specific files */,
+				28E3C5801DBAEDC6006400DD /* Supporting Files */,
+			);
+			path = woot;
+			sourceTree = "<group>";
+		};
+		28E3C5801DBAEDC6006400DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E3C5811DBAEDC6006400DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28E3C5CA1DBAEF2A006400DD /* WOOT specific files */ = {
+			isa = PBXGroup;
+			children = (
+				28E3C5AF1DBAEF25006400DD /* WIdentifier.h */,
+				28E3C5B01DBAEF25006400DD /* WIdentifier.m */,
+				28E3C5B11DBAEF25006400DD /* WCharacter.h */,
+				28E3C5B21DBAEF25006400DD /* WCharacter.m */,
+				28E3C5B31DBAEF25006400DD /* WCharacter+LocalPosition.h */,
+				28E3C5B41DBAEF25006400DD /* WCharacter+LocalPosition.m */,
+				28E3C5B51DBAEF25006400DD /* WCharacter+Special.h */,
+				28E3C5B61DBAEF25006400DD /* WCharacter+Special.m */,
+				28E3C5B71DBAEF25006400DD /* WString.h */,
+				28E3C5B81DBAEF25006400DD /* WString.m */,
+				28E3C5B91DBAEF25006400DD /* WString+InsertNSString.h */,
+				28E3C5BA1DBAEF25006400DD /* WString+InsertNSString.m */,
+				28E3C5BB1DBAEF25006400DD /* GenericOperation.h */,
+				28E3C5BC1DBAEF25006400DD /* GenericOperation.m */,
+				28E3C5BD1DBAEF25006400DD /* InsertOp.h */,
+				28E3C5BE1DBAEF25006400DD /* InsertOp.m */,
+				28E3C5BF1DBAEF25006400DD /* DelOp.h */,
+				28E3C5C01DBAEF25006400DD /* DelOp.m */,
+			);
+			name = "WOOT specific files";
+			sourceTree = "<group>";
+		};
+		28E3C5CC1DBAF05F006400DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28E3C5DF1DBAF135006400DD /* Constants.h */,
+				28E3C5CB1DBAF059006400DD /* WOOTOpBroadcastDelegateProtocol.h */,
+				28E3C5D01DBAF122006400DD /* MeshNoteSession.h */,
+				28E3C5D11DBAF122006400DD /* MeshNoteSession.m */,
+				28E3C5D21DBAF122006400DD /* MeshNoteOnlineInfo.h */,
+				28E3C5D31DBAF122006400DD /* MeshNoteOnlineInfo.m */,
+				28E3C5D41DBAF122006400DD /* ReadyToReceiveCommand.h */,
+				28E3C5D51DBAF122006400DD /* ReadyToReceiveCommand.m */,
+				28E3C5D61DBAF122006400DD /* NoteInfoCommand.h */,
+				28E3C5D71DBAF122006400DD /* NoteInfoCommand.m */,
+				28E3C5D81DBAF122006400DD /* BatchOperation.h */,
+				28E3C5D91DBAF122006400DD /* BatchOperation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E3C57C1DBAEDC6006400DD /* woot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E3C5941DBAEDC6006400DD /* Build configuration list for PBXNativeTarget "woot" */;
+			buildPhases = (
+				28E3C5791DBAEDC6006400DD /* Sources */,
+				28E3C57A1DBAEDC6006400DD /* Frameworks */,
+				28E3C57B1DBAEDC6006400DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = woot;
+			productName = woot;
+			productReference = 28E3C57D1DBAEDC6006400DD /* woot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E3C5751DBAEDC6006400DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Anson Liu";
+				TargetAttributes = {
+					28E3C57C1DBAEDC6006400DD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3E2UWZ76C2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28E3C5781DBAEDC6006400DD /* Build configuration list for PBXProject "woot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28E3C5741DBAEDC6006400DD;
+			productRefGroup = 28E3C57E1DBAEDC6006400DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E3C57C1DBAEDC6006400DD /* woot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28E3C57B1DBAEDC6006400DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E3C5901DBAEDC6006400DD /* LaunchScreen.storyboard in Resources */,
+				28E3C58D1DBAEDC6006400DD /* Assets.xcassets in Resources */,
+				28E3C58B1DBAEDC6006400DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E3C5791DBAEDC6006400DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E3C5C91DBAEF25006400DD /* DelOp.m in Sources */,
+				28E3C5C81DBAEF25006400DD /* InsertOp.m in Sources */,
+				28E3C5DE1DBAF122006400DD /* BatchOperation.m in Sources */,
+				28E3C59C1DBAEDEA006400DD /* WOOTTextViewDelegate.m in Sources */,
+				28E3C5DA1DBAF122006400DD /* MeshNoteSession.m in Sources */,
+				28E3C5C11DBAEF25006400DD /* WIdentifier.m in Sources */,
+				28E3C5C61DBAEF25006400DD /* WString+InsertNSString.m in Sources */,
+				28E3C5851DBAEDC6006400DD /* AppDelegate.m in Sources */,
+				28E3C5C31DBAEF25006400DD /* WCharacter+LocalPosition.m in Sources */,
+				28E3C5821DBAEDC6006400DD /* main.m in Sources */,
+				28E3C5C71DBAEF25006400DD /* GenericOperation.m in Sources */,
+				28E3C5DB1DBAF122006400DD /* MeshNoteOnlineInfo.m in Sources */,
+				28E3C5C51DBAEF25006400DD /* WString.m in Sources */,
+				28E3C5DC1DBAF122006400DD /* ReadyToReceiveCommand.m in Sources */,
+				28E3C5C41DBAEF25006400DD /* WCharacter+Special.m in Sources */,
+				28E3C5C21DBAEF25006400DD /* WCharacter.m in Sources */,
+				28E3C59B1DBAEDEA006400DD /* MainViewController.m in Sources */,
+				28E3C5DD1DBAF122006400DD /* NoteInfoCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28E3C5891DBAEDC6006400DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E3C58A1DBAEDC6006400DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28E3C58E1DBAEDC6006400DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28E3C58F1DBAEDC6006400DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28E3C5921DBAEDC6006400DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28E3C5931DBAEDC6006400DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28E3C5951DBAEDC6006400DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3E2UWZ76C2;
+				INFOPLIST_FILE = woot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonliu.woot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28E3C5961DBAEDC6006400DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3E2UWZ76C2;
+				INFOPLIST_FILE = woot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ansonliu.woot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E3C5781DBAEDC6006400DD /* Build configuration list for PBXProject "woot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E3C5921DBAEDC6006400DD /* Debug */,
+				28E3C5931DBAEDC6006400DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E3C5941DBAEDC6006400DD /* Build configuration list for PBXNativeTarget "woot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E3C5951DBAEDC6006400DD /* Debug */,
+				28E3C5961DBAEDC6006400DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E3C5751DBAEDC6006400DD /* Project object */;
+}

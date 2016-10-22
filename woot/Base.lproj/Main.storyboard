@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A322" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iQc-xx-9Mi">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="aoF-0i-MZh">
+            <objects>
+                <viewController id="iQc-xx-9Mi" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dwk-cC-n1s"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mph-m2-LaR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="064-qV-qJZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b0z-mw-Cpz">
+                                <color key="backgroundColor" red="1" green="0.84524546690000002" blue="0.82158146539999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1GP-vO-teV">
+                                <color key="backgroundColor" red="0.83393276000000005" green="0.87338076980000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b0z-mw-Cpz" firstAttribute="top" secondItem="dwk-cC-n1s" secondAttribute="bottom" id="2tw-jQ-hjn"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="b0z-mw-Cpz" secondAttribute="leading" id="FFP-GC-rYj"/>
+                            <constraint firstItem="Mph-m2-LaR" firstAttribute="top" secondItem="b0z-mw-Cpz" secondAttribute="bottom" constant="384" id="Gxr-ud-r2r"/>
+                            <constraint firstItem="1GP-vO-teV" firstAttribute="top" secondItem="dwk-cC-n1s" secondAttribute="bottom" id="Mkh-Zo-6DZ"/>
+                            <constraint firstItem="Mph-m2-LaR" firstAttribute="top" secondItem="1GP-vO-teV" secondAttribute="bottom" constant="384" id="Pkb-sg-eBG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1GP-vO-teV" secondAttribute="trailing" id="bRP-ay-8ID"/>
+                            <constraint firstItem="1GP-vO-teV" firstAttribute="width" secondItem="b0z-mw-Cpz" secondAttribute="width" id="gEZ-vu-09j"/>
+                            <constraint firstItem="1GP-vO-teV" firstAttribute="leading" secondItem="b0z-mw-Cpz" secondAttribute="trailing" constant="8" id="sjn-l3-Npq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textViewOne" destination="b0z-mw-Cpz" id="NzP-Dg-ccL"/>
+                        <outlet property="textViewTwo" destination="1GP-vO-teV" id="ZF8-X0-GR6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBa-Y6-Kq7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2511" y="1654"/>
+        </scene>
+    </scenes>
+</document>
