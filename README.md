@@ -12,9 +12,10 @@ Credits to G ́erald Oster, Pascal Urso, Pascal Molli, Abdessamad Imine. Real ti
 Use it now
 -------------
 ![Mesh Notes iOS icon](https://raw.githubusercontent.com/ansonl/objc-woot/master/mesh-notes-icon.png)
+
 I used this implementation in [Mesh Notes](https://itunes.apple.com/us/app/mesh-notes-internetless-collaboration/id1160071680?mt=8), a free iOS app that allows nearby users to collaborate on notes. 
 
-↓ Usage
+↓ Use it in your own project
 ===================
 
  - Download, open Xcode project, and run.
