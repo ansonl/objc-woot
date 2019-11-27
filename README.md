@@ -2,11 +2,11 @@ Objective-C WithOut Operational Transform (WOOT) Implementation
 ===================
 ![WOOT demo](https://raw.githubusercontent.com/ansonl/objc-woot/master/woot-demo.gif)
 
-A working Objective-C implementation of the collaborative editing algorithm WithOut Operational Transform (WOOT). 
+A working Objective-C implementation of the collaborative editing algorithm WithOut Operational Transform (WOOT). This example is ready to build and run as an iOS app using Apple Xcode. 
 
 WOOT is a framework that ensures intention consistency between multiple users' edits. Similar to collaborative editing without a central server.
 
-Credits to G ́erald Oster, Pascal Urso, Pascal Molli, Abdessamad Imine. Real time group editors with- out Operational transformation. [Research Report] RR-5580, INRIA. 2005, pp.24. <inria- 00071240>])
+Credits to G ́erald Oster, Pascal Urso, Pascal Molli, Abdessamad Imine. Real time group editors with- out Operational transformation. [Research Report] RR-5580, INRIA. 2005, pp.24. <inria-00071240>])
 [WOOT research paper link](https://hal.inria.fr/inria-00071240/document)
 
 Use it now
